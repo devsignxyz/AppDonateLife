@@ -1,0 +1,111 @@
+/* YOUR CUSTOM STYLES */
+
+ /* TEMPLATE STYLES */
+        
+html,
+body,
+.view {
+	height: 100%;
+}
+/* Navigation*/
+
+.navbar {
+	background-color: transparent;
+}
+
+.scrolling-navbar {
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+/*botones*/
+.btn-default {
+background: #E91E63;
+}
+.btn-default :hover{
+color:#448AFF;
+
+}
+
+
+
+
+
+#signup {
+
+	text-align: center;
+	background: url('../img/woman.jpg') center center repeat fixed;
+	background-size: cover;
+	color: #ffffff;
+	padding: 140px 0;
+}
+#signup h2 {
+	font-weight: normal;
+
+}
+#signup h2 strong {
+	border-bottom: solid 2px #dd5638;
+}
+
+#cta {
+  padding: 50px 0;
+  background-color: #f2f2f2;
+}
+#cta h2 {
+  margin-top: 0;
+	color: #414243;
+}
+#cta p {
+	color: #414243;
+	font-size: 20px;
+}
+#cta .btn {
+  margin-top: 40px;
+}
+
+.top-nav-collapse {
+	background-color:#1C2331;
+}
+
+footer.page-footer {
+	background-color: #1C2331;
+	margin-top: -1px;
+	
+}
+footer.page-footer a:hover {
+	color: aqua
+}
+
+footer.page-footer h5 {
+
+
+
+}
+
+
+.container-fluid1{
+	background-color: #1C2331;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.navbar {
+		background-color: #1C2331;
+	}
+}
+/*Call to action*/
+
+.flex-center {
+	color: #fff;
+}
+
+.view {
+	background: url('../img/59787-O9IDN4-132.jpg')no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
